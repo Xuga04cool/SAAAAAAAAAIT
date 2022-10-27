@@ -1,0 +1,455 @@
+body{
+	margin: 0;
+}
+
+header{
+	display: flex;
+	width: 1170px;
+	justify-content: center;
+	height: 140px;
+	margin: 0 auto;
+
+}
+
+.header__nav a:hover{
+	color: #F63D3D;
+	text-decoration: underline;
+}
+
+.navigator{
+	justify-content: space-between;
+	display: flex;
+	width: 900px;
+	padding: 0;
+}
+
+.navigator li {
+	justify-content: center;
+	list-style: none;
+	display: flex;
+	margin: 11px;
+	align-items: center;
+}
+
+.navigator a {
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+	font-family: 'Montserrat';
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.header__img {
+	height: 80px;
+	width: 157px;	
+}
+
+.golova_poisk{
+	width: 137px;
+	display: flex;
+	align-items: center;
+}
+
+.golova_poisk a{
+	margin: 0;
+}
+
+.magazine {
+	margin-left: 20px;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.magazine a {
+	margin:0 20px;
+}
+
+.ccad{
+	display: flex;
+	height: 900px;
+	background: linear-gradient(298.2deg, rgba(251, 90, 0, 0.2) 28.63%, rgba(0, 0, 0, 0) 96.07%, rgba(249, 229, 57, 0.108) 96.07%), #FFC632;
+}
+
+.ccadtext{
+	width: 475px;
+	margin-left: 200px;
+	height: 317px;
+}
+
+.ccadheader{
+	padding-top: 276px;
+
+	width: 70%;
+
+	font-family: 'Roboto';
+	font-size: 48px;
+	font-style: normal;
+	line-height: 56px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	color: #0D0D0D;
+}
+
+.ccadnav{
+	width: 475px;
+	height: 185px;
+
+}
+
+.ccadnav p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #0D0D0D;
+}
+
+.button1{
+	width: 201px;
+	height: 52px;
+	background: #F63D3D;
+	box-shadow: 0px 0px 20px rgba(246, 61, 61, 0.7);
+	border-radius: 110px;
+	border: none;
+}
+
+.button2{
+	box-sizing: border-box;
+	width: 201px;
+	height: 52px;
+	border: 2px solid #F63D3D;
+	border-radius: 110px;
+	background-color: transparent;
+}
+
+.button1 p{
+	font-weight: 500;
+	color: #FFFFFF;
+	margin: 11px auto;
+}
+
+.button2 p{
+	font-weight: 500;
+	color: #F63D3D;
+	margin: 11px auto;
+}
+
+.animal{
+	width: 950px;
+	height: 788px;
+	margin-top: 112px;	
+}
+
+.background{
+	position: relative;
+	right: 25px;
+}
+
+.ellipse{
+	position: relative;
+	bottom: 905px;
+	right: 214px;
+}
+
+.ellipse2{
+	position: relative;
+	bottom: 1697px;
+	left: 25px;
+}
+
+.cat_fotka{
+	position: relative;
+	bottom: 2110px;
+	left: 195px;
+}
+
+.dog_fotka{
+	position: relative;
+	bottom: 2903px;
+	left: 110px;
+}
+
+.needs{
+
+	height: 562px;
+	background: #F6F6F6;
+}
+
+.needs__img_dog{
+	display: flex;
+	margin: 60px auto 0;
+}
+
+.needs__text{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+
+	text-align: center;
+	margin: -5px auto 0;
+	
+}
+
+.needs__text span{
+	color:  #F63D3D;
+}
+
+.needs__list{
+	display: flex;
+	height: 202px;
+	width: 1170px;
+	margin: 47px auto 60px;
+	justify-content: space-between;
+}
+
+.needs__list ul{
+	display: flex;
+	list-style: none;
+
+}
+
+.needs__list div{
+	width: 225px;
+	height: 215px;
+	align-items: center;
+}
+
+.needs__list div div{
+	width: 95px;
+	height: 84.02px; 
+	border-radius: 8px;
+	margin-left: 60px;
+
+}
+
+.needs__list p{
+	text-align: center;
+	padding: 0;
+
+}
+
+.needs__list img{
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.needs__list__headers{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #F63D3D;
+}
+
+.needs__list__text{
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+
+	color: #0D0D0D;
+	margin-top: -15px;
+}
+
+.categories{
+	width: 1170px;
+	height: 406px;
+	margin: 0 auto;
+}
+
+.categories__block{
+	display: flex;
+	justify-content: space-between;
+}
+
+.categories__block div div{
+	width: 270px;
+	height: 270px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.categories__block P{
+	text-align: center;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+
+}
+
+.categories__header{
+	text-align: center;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 59px;
+
+}
+
+.categories__header span{
+	color: #F63D3D;
+}
+
+.vital{
+	width: 1170px;
+	height: 413px;
+	margin: 103px auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.vital__text{
+	margin-top: 95px;
+}
+
+.vital__text p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+
+	width: 90%;
+}
+
+.vital__text__heart{
+	display: flex;
+	align-items: center;
+}
+
+.vital__text__heart p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+
+	width: 100%;
+}
+
+.vital__text__heart span{
+	font-size: 32px;
+}
+
+.vital__text .button__Shop__Top{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.vital__text .button__Shop__Top p{
+	font-size: 24px;	
+}
+
+.vital__text__rectangle{
+	width: 514px;
+	height: 348px;
+	margin-top: 65px;
+
+	background: #F63D3D;
+	border-radius: 10px;
+}
+
+.best__seller{
+	width: 1170px;
+	height: 461px;
+	margin: 103px auto 0;
+}
+
+.best__seller p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+	text-align: center;
+}
+
+.best__seller span{
+	color: #F63D3D;
+}
+
+.best__seller__block{
+	display: flex;
+	justify-content: space-between;
+}
+
+.best__seller__block div{
+	text-align: center;
+}
+
+.best__seller__block p{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 5px;
+}
+
+.cat__block{
+
+	height: 599px;
+	background-image: url("img/Vector 1.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 127px;
+}
+
+.cat__block .button__Shop__Top{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 53px;
+}
+
+.cat__block .button__Shop__Top p{
+	font-size: 24px;	
+}
+
+.cbt{
+	margin-top: 162px;
+	margin-right: 337px;
+}
+
+.cbtci{
+	display: flex;
+	align-items: center;
+}
+
+.cat__block__text__cake__img p{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.cat__block__text__cake__img span{
+	font-size: 32px;
+}
+
+.cat__text p{
+	width: 378px;
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 31px;
+}
